@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "e_commerces",
+  "info": {
+    "singularName": "e-commerce",
+    "pluralName": "e-commerces",
+    "displayName": "E-commerce"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}
