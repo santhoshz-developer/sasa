@@ -1,22 +1,5 @@
 import type { Schema, Attribute } from '@strapi/strapi';
 
-export interface FooterFooter extends Schema.Component {
-  collectionName: 'components_footer_footers';
-  info: {
-    displayName: 'footer';
-  };
-  attributes: {
-    title: Attribute.String;
-    main: Attribute.Text;
-    submain: Attribute.Text;
-    subtitle: Attribute.String;
-    sub: Attribute.String;
-    text: Attribute.String;
-    description: Attribute.Text;
-    image: Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
-  };
-}
-
 export interface HeaderNavMenu extends Schema.Component {
   collectionName: 'components_header_nav_menus';
   info: {
@@ -51,6 +34,23 @@ export interface HeaderHeader extends Schema.Component {
   attributes: {
     NavMenu: Attribute.Component<'header.nav-menu', true>;
     NavIcon: Attribute.Component<'header.nav-icon'>;
+    image: Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
+  };
+}
+
+export interface FooterFooter extends Schema.Component {
+  collectionName: 'components_footer_footers';
+  info: {
+    displayName: 'footer';
+  };
+  attributes: {
+    title: Attribute.String;
+    main: Attribute.Text;
+    submain: Attribute.Text;
+    subtitle: Attribute.String;
+    sub: Attribute.String;
+    text: Attribute.String;
+    description: Attribute.Text;
     image: Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
   };
 }
@@ -102,10 +102,10 @@ export interface BodyBody extends Schema.Component {
 declare module '@strapi/types' {
   export module Shared {
     export interface Components {
-      'footer.footer': FooterFooter;
       'header.nav-menu': HeaderNavMenu;
       'header.nav-icon': HeaderNavIcon;
       'header.header': HeaderHeader;
+      'footer.footer': FooterFooter;
       'body.product-image': BodyProductImage;
       'body.button': BodyButton;
       'body.body': BodyBody;
