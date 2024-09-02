@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_header_headers",
+  "info": {
+    "displayName": "header"
+  },
+  "options": {},
+  "attributes": {
+    "NavMenu": {
+      "displayName": "NavMenu",
+      "type": "component",
+      "repeatable": true,
+      "component": "header.nav-menu"
+    },
+    "NavIcon": {
+      "displayName": "NavIcon",
+      "type": "component",
+      "repeatable": false,
+      "component": "header.nav-icon"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

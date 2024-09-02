@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_header_nav_menus",
+  "info": {
+    "displayName": "NavMenu"
+  },
+  "options": {},
+  "attributes": {
+    "Home": {
+      "type": "string"
+    },
+    "Shop": {
+      "type": "string"
+    },
+    "About": {
+      "type": "string"
+    },
+    "Contact": {
+      "type": "string"
+    }
+  }
+}

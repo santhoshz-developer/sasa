@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "displayName": "footer"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "main": {
+      "type": "text"
+    },
+    "submain": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "sub": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

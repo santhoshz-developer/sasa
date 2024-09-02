@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_body_bodies",
+  "info": {
+    "displayName": "body"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subHeading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": true,
+      "component": "body.button"
+    },
+    "productImage": {
+      "displayName": "productImage",
+      "type": "component",
+      "repeatable": true,
+      "component": "body.product-image"
+    },
+    "template_Id": {
+      "type": "biginteger"
+    }
+  }
+}

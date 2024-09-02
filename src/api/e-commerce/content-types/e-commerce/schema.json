@@ -11,8 +11,23 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
-      "type": "string"
+    "header": {
+      "displayName": "header",
+      "type": "component",
+      "repeatable": true,
+      "component": "header.header"
+    },
+    "body": {
+      "displayName": "body",
+      "type": "component",
+      "repeatable": true,
+      "component": "body.body"
+    },
+    "footer": {
+      "displayName": "footer",
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.footer"
     }
   }
 }

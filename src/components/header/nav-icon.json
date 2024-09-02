@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_header_nav_icons",
+  "info": {
+    "displayName": "NavIcon"
+  },
+  "options": {},
+  "attributes": {
+    "UserIcon": {
+      "type": "string"
+    },
+    "SearchIcon": {
+      "type": "string"
+    },
+    "FavoriteIcon": {
+      "type": "string"
+    },
+    "Cart": {
+      "type": "string"
+    }
+  }
+}
